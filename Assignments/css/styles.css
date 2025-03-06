@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: white;
+    background-image: url(/assignments/images/webb\ background.png);
     font-family: "Noto Sans", sans-serif;
 }
 
@@ -39,4 +39,10 @@ width: 180px;
     border-radius: 999px;
     border: 6px solid dodgerblue;
 
+}
+
+.menu-items li a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
 }
