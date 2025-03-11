@@ -25,13 +25,46 @@ body {
 .container > * {
 grid-column: span 12;
 
+}
+
+/*Button Styles */
+
+a.button {
+    display: block;
+    min-width: 200px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+a.button:hover {
+background-color: rgb(100, 180, 250);
+}
+
+a.button:active {
+background-color: rgb(10, 110, 210);
+}
+
+a.button:visited {
 
 }
+
 
 /************Desktop Layout */
 
 
 @media screen and (min-width: 40em) {
+
+    a.button {
+        display: inline-block;
+    }
+
     .col-span-8 {
         grid-column: span 8;
     }
@@ -61,6 +94,7 @@ h3 {
 }
 
 aside { 
+    text-align: center;
    
 }
 
