@@ -16,14 +16,15 @@ body {
 
 .container {
     display: grid;
-    grid-gap: 1.5em;
+    column-gap: 1.5em;
     grid-template-columns: repeat(12, 1fr);
     width: min(95%, 75em);
     margin: 0 auto;
-    padding: 0 20px;
+    
 }
 .container > * {
 grid-column: span 12;
+padding-inline: 20px;
 
 }
 
@@ -63,8 +64,10 @@ a.button:visited {
 /************Desktop Layout */
 
 
-@media screen and (min-width: 40em) {
-
+@media  (min-width: 40em) {
+    #nav-menu ul{
+        display: flex;
+    }
     a.button {
         display: inline-block;
     }
@@ -86,7 +89,8 @@ header {
 
 h1 {
     text-transform: uppercase;
-    font-size: clamp(32px, 4vw, 48px);
+    font-size: clamp(28px, 4vw, 48px);
+    text-align: center;
 }
 
 h2 {
@@ -99,6 +103,7 @@ h3 {
 
 aside { 
     text-align: center;
+    padding: 20px;
    
 }
 
@@ -119,6 +124,53 @@ img.circle {
 }
 
 /*navigation*/
+
+#nav-menu {
+    background-color: #444;
+    padding: 12px 1rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+    
+
+
+}
+
+#nav-menu ul{
+    
+    justify-content: center;
+    gap: 20px;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-menu ul li {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+#nav-menu li a {
+    display: inline-block;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 99px;
+    transition: all .2s ease;
+    min-width: 150px;
+    text-align: center;
+}
+#nav-menu li.active a,  
+#nav-menu li a:hover {
+    background-color: #555;
+}
+
 
 .menu-items li a {
     color: red;
