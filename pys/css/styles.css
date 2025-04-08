@@ -164,6 +164,7 @@ header {
     width: 100%;
     margin: auto;
     padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .gallery-item img{
