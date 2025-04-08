@@ -1,0 +1,325 @@
+
+*{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    
+}
+
+.container {
+   
+    
+}
+
+
+/* Navigation Bar */
+
+header {
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+   
+}
+
+/* Logo Styling */
+.logo img {
+    height: 50px;
+}
+
+.instalogo {
+    height: 15px;
+}
+
+.facebooklogo {
+    height: 14px;
+}
+
+.orange-button {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black
+}
+
+.main-image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.messy-mug
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h1-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Georgia', serif;
+    width: 65%;
+    
+}
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    color: orange;
+    padding: 25px 50px 25px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+.h3-text {
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: 'Georgia', serif;
+    font-style: bold;
+}
+
+.reservation-event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-items h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Georgia', serif;
+    
+}
+
+.image-items p {
+    text-align: center;
+}
+
+
+.link-text {
+    color: orange;
+    display: block;
+    text-align: center;
+}
+
+.image-items img {
+    width: 600px;
+    height: auto;
+    padding: auto;
+}
+
+
+.six-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.gallery-item img{
+    display: block;
+    width: 420px;
+    height: 280px;
+    
+}
+
+
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.social-iconfb {
+    height: 20px;
+    width: 10px;
+    color: white;
+}
+
+.social-iconinsta {
+    height: 30px;
+    width: 30px;
+    color: white;
+    transform: translateY(5px);
+}
+
+/* Squarespace Credit Link */
+.credits {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.squarespace-link {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+}
+
+.squarespace-link:hover {
+    text-decoration: underline;
+}
+
+
+/*How it works html */
+
+.how-it-works{
+    padding: 50px 70px;
+    text-align: center;
+    color: black;
+}
+
+.how-it-works h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+
+}
+
+.work-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+/*CTA Button*/
+.specials-cta{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.specials-button{
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+/*Newsletter section */
+
+.newsletter {
+    background-color: #2BA8C5;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2BA8C5; 
+    padding: 50px 0; 
+    color: white;
+    width: 100%;
+}
+
+/* Footer Content */
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 70px; 
+    gap: 40px;
+}
+
+/* Footer Left */
+.footer-left {
+    grid-column: 1
+}
+
+.footer-left h3 {
+    font-size: 30px;
+}
+
+.footer-left a{
+    color: gold;
+}
+
+/* Footer Right */
+.footer-right {
+    grid-column: 3 / 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* Footer Right Content */
+.footer-right div {
+    margin-bottom: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 20px; /* Adds smaller padding for mobile */
+    }
+
+    .footer-right {
+        grid-template-columns: 1fr;
+    }
+}
