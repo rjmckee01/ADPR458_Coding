@@ -279,7 +279,7 @@ footer {
 /* Footer Content */
 .footer-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
     max-width: 1200px;
     margin: 0 auto; 
     padding: 0 70px; 
@@ -288,7 +288,8 @@ footer {
 
 /* Footer Left */
 .footer-left {
-    grid-column: 1
+grid-column: 1;   
+
 }
 
 .footer-left h3 {
