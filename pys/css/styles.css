@@ -312,14 +312,23 @@ footer {
 }
 
 /* Responsive Styling */
-@media (max-width: 768px) {
-    .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-        padding: 0 20px; /* Adds smaller padding for mobile */
+@media (min-width: 40em) {
+    .nav-container ul{
+        display: flex;
+        flex-direction: row;
     }
 
-    .footer-right {
-        grid-template-columns: 1fr;
+    .six-images{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
     }
+    .reservation-event{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    
+
 }
