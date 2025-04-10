@@ -118,6 +118,10 @@ a.orange-button:hover{
     transform: translateY(-50%);
 }
 
+a.cta-button:hover {
+    opacity: 85%;
+}
+
 .h3-text {
     padding-top: 50px;
     padding-left: 160px;
@@ -250,7 +254,7 @@ a.orange-button:hover{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-/*CTA Button*/
+/*Specials Button*/
 .specials-cta{
 margin-top: 30px;
 margin-bottom: 30px;
