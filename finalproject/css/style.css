@@ -2,8 +2,10 @@
 
 body{
     margin: 0;
-    padding 0;
-   background-image: url(/finalproject/imagess/background.png)
+    padding: 0;
+   background-image: url(/finalproject/imagess/background.png);
+   background-size: cover;
+   
 }
 
 .container{
