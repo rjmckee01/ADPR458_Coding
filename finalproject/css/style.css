@@ -1,0 +1,143 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding 0;
+   background-image: url(/finalproject/imagess/v915-wit-011-g.jpg)
+}
+
+.container{
+display: grid;
+grid-template-columns: 50px 50px 50px 50px;
+grid-template-rows: auto;
+grid-template-areas:
+"header header header header"
+"About About About Menu"
+"Porfolio Portfolio Portfolio Portfolio"
+}
+
+header{
+    text-align: center;
+    font-size: 96px;
+    border-bottom: 5px solid black;
+}
+
+.nav-menu{
+    position: absolute;
+  top: 200px; /* adjust based on where you want it to start */
+  right: 0px;
+  width: 150px;
+  background-color: #e0e0e0; /* light gray like in your image */
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+.nav-menu ul {
+    text-align: center;
+}
+
+.menu-items{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.menu-items li {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-me {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+  }
+  
+  .about-me h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  
+  .about-content img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px; /* optional, for rounded corners */
+    object-fit:cover;
+  }
+  
+  .about-content p {
+    flex: 1;
+    font-size: 30px;
+    line-height: 1.6;
+  }
+
+  .portfolio {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  .portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .portfolio-card {
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .portfolio-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .portfolio-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
