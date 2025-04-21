@@ -24,10 +24,10 @@ header{
 
 .nav-menu{
     position: absolute;
-  top: 200px; /* adjust based on where you want it to start */
+  top: 200px; 
   right: 0px;
   width: 150px;
-  background-color: #e0e0e0; /* light gray like in your image */
+  background-color: #e0e0e0; 
   padding: 20px;
   border: 2px solid black;
   display: flex;
@@ -81,7 +81,7 @@ header{
   .about-content img {
     width: 200px;
     height: 300px;
-    border-radius: 10px; /* optional, for rounded corners */
+    border-radius: 10px; 
     object-fit:cover;
   }
   
