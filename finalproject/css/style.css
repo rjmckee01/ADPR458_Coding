@@ -20,7 +20,35 @@ header{
     text-align: center;
     font-size: 96px;
     border-bottom: 5px solid black;
+    color: black;
+    text-decoration: none;
 }
+
+.home{
+  text-align: left;
+  font-size: 36px;
+  color: black;
+  border-bottom: none;
+  position: absolute;
+  top: 55px;
+  left: 50px;
+}
+
+.home:hover{
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #636ed7;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 .nav-menu{
     position: absolute;
@@ -52,6 +80,14 @@ header{
     margin-bottom: 25px;
     margin-top: 25px;
 }
+
+.menu-items li:hover
+   {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #636ed7;
+}
+
+
 
 .nav-menu a {
     text-decoration: none;
@@ -140,4 +176,87 @@ header{
     line-height: 1.5;
   }
   
+  
+
+
+  /* Contact Info Index */
+
+  .contactinfo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactinfo h2 {
+    position: absolute;
+    justify-content: center;
+  }
+
+
+
+  .email {
+    position: relative;
+    top: 50px;
+    left: 190px;
+  }
+
+  .linkedin {
+    position: relative;
+    top: 88px;
+    left: 50px;
+  }
+
+  .address{
+    position: relative;
+    top: 125px;
+    right: 80px;
+  }
+
+  .addresstwo{
+    position: relative;
+    top: 150px;
+    right: 240px;
+  }
+
+  /*Resume Page*/
+
+  .download{
+    position: absolute;
+    top: 410px; 
+    right: 28px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
+    
+
+  }
+
+  .download a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .download ul{
+list-style: none;
+  }
+
+
+ button{ 
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+
+  color: #3a4149;
+  background: #e0e0e0;
+  line-height: 1.15;
+  font-size: 16px;}
+
+  .download li:hover {
+      transition: all .1s ease;
+      box-shadow: 0 0 0 0 #fff, 0 0 0 3px #636ed7;
+  }
+
   
