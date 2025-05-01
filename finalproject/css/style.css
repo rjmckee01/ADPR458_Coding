@@ -196,7 +196,7 @@ header a:visited{
   .email {
     position: relative;
     top: 50px;
-    left: 180px;
+    left: 105px;
   }
 
   .linkedin {
@@ -229,18 +229,26 @@ header a:visited{
     font-size: 16px;
   }
 
+  .badge-base{
+    position: absolute;
+    left: 200px;
+    bottom: 340px;
+   
+    
+    display: inline;
+  }
 
 
   .address{
     position: relative;
-    top: 145px;
-    right: 145px;
+    top: 100px;
+    right: 59px;
   }
 
   .addresstwo{
     position: relative;
-    top: 160px;
-    right: 245px;
+    top: 120px;
+    right: 160px;
   }
 
 
