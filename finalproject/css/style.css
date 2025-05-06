@@ -175,8 +175,34 @@ header a:visited{
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-color: #000;
+  }
   
+  .iframe-container2 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-color: #ebebeb;
+  }
+
+  .aspect-iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  }
+
   
+
+  .EmbedShareProjectCover-container-Sgb {
+    width: 100%
+  }
 
 
   /* Contact Info Page */
